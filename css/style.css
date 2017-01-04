@@ -80,7 +80,7 @@ nav ol li:hover {
 }
 
 section#principal{
-	background: url("http://clubedodesign.com/wp-content/uploads/2016/06/GraphicDesign.jpg");
+	background: url(../img/home.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -121,6 +121,7 @@ section#apresentacao{
 	   /*background: rgb(222, 222, 222);*/
     background-image: url(../img/nuvem.jpg);
     background-attachment: fixed;
+    background-size: contain;
     width: 100%;
     height: 100%;
     display: block;
