@@ -118,12 +118,15 @@ section#principal{
 
 
 section#apresentacao{
-	background: rgb(222, 222, 222);
+	   /*background: rgb(222, 222, 222);*/
+    background-image: url(../img/nuvem.jpg);
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     display: block;
     top: 100%;
     position: absolute;
+    box-shadow: inset 1px 1px 10px 5px #3a3535;
 }
 section#tecnologias{
 	background: url("http://www.ivonfilho.com/images/site/web-designer-freelancer-brasilia-df-criacao-de-sites-df.jpg");
