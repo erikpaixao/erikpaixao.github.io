@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+* {
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	transition-delay: .1s;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: 100% 'Open Sans', sans-serif;
+}
+
+header {
+	width: 100%;
+	box-shadow: 1px 1px 10px #ccc;
+	position: absolute;
+	background-color: #fff;
+	z-index: 1;
+
+}
+
+div.container{
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 100%;
+}
+
+div#logo {
+	display: inline-block;
+
+}
+
+#logo img {
+    width: 60%;
+    padding: 10px;
+    /*opacity: 0.8;*/
+}
+
+nav {
+	display: inline-block;
+	position: absolute;
+	top: .3em;
+	right: 15%;
+}
+
+nav ol li {
+	display: inline-block;
+	padding: .5em;
+
+}
+
+nav a {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+nav ol li:hover {
+	border-bottom: 1px dotted #ccc;
+
+}
+
+.menuFixo {
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background-color: #FFF;
+	opacity: .7;
+}
+
+.menuFixo:hover {
+	opacity: 1;
+}
+
+section#principal{
+	background: url("http://clubedodesign.com/wp-content/uploads/2016/06/GraphicDesign.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+}
+
+.nome {
+    margin-top: 7em;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.nome h1 {
+    font-size: 6em;
+    margin-bottom: 0;
+    margin-left: -10px;
+    text-shadow: 1px 1px 100px #000;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+}
+
+.nome h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-shadow: 1px 1px 10px #000;
+    font-weight: 300;
+    width: 20em;
+    text-align: right;
+    float: right;
+    opacity: 0;
+}
+
+
+section#apresentacao{
+	background: rgb(222, 222, 222);
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 100%;
+    position: absolute;
+}
+section#tecnologias{
+	background: url("http://www.ivonfilho.com/images/site/web-designer-freelancer-brasilia-df-criacao-de-sites-df.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 200%;
+	position: absolute;
+}
+
+section#portfolio{
+	background: url("http://www.ivonfilho.com/images/site/web-designer-freelancer-brasilia-df-criacao-de-sites-df.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 300%;
+	position: absolute;
+}
+
+section#contato{
+	background: #ccc;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 400%;
+	position: absolute;
+}
+
+footer{
+	height: 10em;
+	width: 100%;
+	background-color: #ccc;
+	position: absolute;
+	top: 500%;
+}
+
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{-webkit-animation:opac 1.5s;animation:opac 1.5s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;-webkit-animation:animatetop 9s ease;animation:animatetop 9s ease}
+@-webkit-keyframes animatetop{0%{top:-300px;opacity:0} 5%{top:0;opacity:1}95%{top:0;opacity:1}100%{top:300px;opacity:0}}
+@keyframes animatetop{0%{top:-300px;opacity:0} 5%{top:0;opacity:1}95%{top:0;opacity:1}100%{top:300px;opacity:0}}
+.w3-animate-left{position:relative;-webkit-animation:animateleft 0.4s;animation:animateleft 0.4s}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;-webkit-animation:animatebottom 9s;animation:animatebottom 8s;animation-delay: .5s}
+@-webkit-keyframes animatebottom{0%{bottom:-300px;opacity:0} 5%{bottom:0;opacity:1}95%{bottom:0;opacity:1}100%{bottom:300px;opacity:0}}
+@keyframes animatebottom{0%{bottom:-300px;opacity:0} 5%{bottom:0;opacity:1}95%{bottom:0;opacity:1}100%{bottom:300px;opacity:0}}
+.w3-animate-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
+@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+
+
+
+@keyframes home {
+    0% {
+    	display: none;
+    }
+    10% {
+    	display: block;
+    }
+    90% {
+    	display: block;
+    }
+    100% {
+    	display: none;
+    }
+}
+
+.form-control {
+    background-image: linear-gradient(#5691BA,#5691BA),linear-gradient(#d2d2d2,#d2d2d2) !important;
+}
+
+.form-control {
+    border: 0;
+    background-image: linear-gradient(#009688,#009688),linear-gradient(#d2d2d2,#d2d2d2);
+    background-size: 0 2px,100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom,center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+}
+
+
+
+
+/*Twitter card init*/
+
+.twPc-div {
+    background: #fff none repeat scroll 0 0;
+    height: 80%;
+    width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 15%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 15px #848484;
+}
+.twPc-bg {
+    background-image: url("http://www.ivonfilho.com/images/site/web-designer-freelancer-brasilia-df-criacao-de-sites-df.jpg");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 80%;
+    width: 100%;
+}
+.twPc-block {
+    display: block !important;
+    margin-top: -20px;
+}
+.twPc-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.twPc-Apresentacao {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    width: 75%;
+    position: relative;
+    top: 25%;
+    border-radius: 5px;
+}
+.twPc-avatarLink {
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block !important;
+    float: left;
+    margin: -30px 5px 0 8px;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+}
+.twPc-avatarImg {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 72px;
+    width: 72px;
+}
+.twPc-divUser {
+    margin: 5px 0 0;
+}
+.twPc-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.twPc-divName a {
+    color: inherit !important;
+}
+.twPc-divStats {
+    margin-left: 11px;
+    padding: 30px 0;
+    max-width: 20%;
+}
+.twPc-Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    table-layout: auto;
+}
+ul.twPc-Arrange {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.twPc-ArrangeSizeFit {
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+.twPc-ArrangeSizeFit a:hover {
+    text-decoration: none;
+}
+.twPc-StatValue {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+}
+.twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+}
