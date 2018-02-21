@@ -31,7 +31,7 @@ div.container{
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
-	min-height: 100%;
+    min-height: 100%;
 }
 
 div#logo {
@@ -80,12 +80,11 @@ nav ol li:hover {
 }
 
 section#principal{
-	background: url(../img/home.jpg);
-	background-size: cover;
+	background: url(../img/bg_p.png) repeat top left, url(../img/home.jpg);
 	width: 100%;
 	height: 100%;
 	display: block;
-	position: absolute;
+    position: absolute;
 }
 
 .nome {
